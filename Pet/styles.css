@@ -1,0 +1,193 @@
+* { /*usar * para a pagina inteira*/
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; /*fonte dq está escrito*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ color: #23a171 /*cor*/  
+}
+
+header {
+    background-color: #11a041; /*cor de fundo*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header a {
+    color: #ffffff; /*cor*/
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
+
+/*usar # para puxar um ID*/
+
+#inicio  {
+  display: flex; 
+ align-items: center; /*colocar do lado no centro*/
+ gap: 32px; /*distancia*/
+/*topo, direira, baixo, esquerda */
+ padding: 24px 80px 128px 80px;
+ position: relative;
+}
+
+/*espaçamento dos texto e as imagens */
+h1, h2 { 
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+/*se eu classificar o paragrafo com o <p class"= "paragrafo> eu posso mudar só ele */
+/*p vai ser para geral  */
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao {
+    background-color: #23a171; /*cor de fundo*/
+    border-radius: 8px; /*raio da borda*/
+    color: #ffffff; /*cor*/
+    /*vertical, horizontal*/
+    padding: 16px 32px; 
+    text-decoration: none; /*tirar a linha que fica em baixo*/
+}
+
+.botao-transparente {
+    background-color: transparent; /*deixar transparente o botao*/
+    color: #23a171;  /*cor*/
+    padding: 16px 32px; /*vertical, horizontal*/
+    text-underline-offset: 6px; /*dar um espaçamento da linha com oq esta escrito*/
+}
+
+.absolute {
+    position: absolute; /*posicionar aonde quiser na pagina */
+    bottom: 0; /*colocar para baixo */
+    left: 0; /*colocar que ele fique para a esquerda*/
+    width: 100%; /*largura dele */
+    z-index: -10; /*coloca ele no fundo da imagem e não atrapalha oq esta na frente dele */
+}
+
+#clinica {
+    display: flex; /*controla usando justify-content, align-items e flex-direction e COLOCA A IMAGEM FICAR ALINAHDA COM O TEXTO*/
+    align-items: center; /*colocar no centro oq esta escrito*/
+    gap: 64px; /*separar do lado da iamgem*/
+    padding: 64px; /*separar da borda*/
+}
+
+#clinica li {
+ margin-bottom: 16px; /*margem embaixo*/
+ margin-left: 32px; /*margem a esquerda*/
+}
+
+#farmacia {
+    padding: 64px 80px; /*dá um espaçamento dela*/
+    text-align: center; /*centralizar a imagem*/
+}
+
+#farmacia  img {
+    margin: 64px auto; /*colocar 100% a imagem centralizada*/
+}
+
+#farmacia  .paragrafo {
+    max-width: 950px; /*valor maximo aonde pode chegar a iamgem*/
+    margin: 0 auto; /*centraliza oq esta escrito dos 2 lados*/
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.duvida{
+    position: relative; /*limitar ao expasso dele e não passar*/
+}
+
+.duvida h3 {
+border: 2px solid #0b442e; /*deixar a borda fina ou grossa da borda e cor*/
+border-radius: 8px; /*raio da borda */
+cursor: pointer; /*quando passa por cima aparecer uma mao no mouse */
+padding: 35px;  /*aumetentar o tamanho */
+}
+
+.duvida img{
+    position: absolute; /*posicionar aonde quiser na pagina */
+    top: 32px; /*topo */
+    right: 24px; /*pra dentro direita*/
+}
+
+.duvida .paragrafo{
+ border-right: 1px solid #0b442e; /*deixa uma linha na direita do paragrafo e cor*/
+ border-bottom: 1px solid #0b442e; /*deixa uma linha na embaixo do paragrafo e cor*/
+ border-left: 1px solid #0b442e; /*deixa uma linha na esquedar do paragrafo e cor*/
+ border-radius: 0 0 8px 8px; /*arredondamento das linhas */
+ margin-top: -8px; /*empurra para cima ou baixo */
+ padding: 0 24px; /*dar um espaçamento */
+ height: 0; /*altura */
+ opacity: 0; /*transparente */
+ overflow: hidden; /*colocar na caixa */
+ transition: .2s; /*deixar mais de vagar, tempo para abrir */
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content; /*ajustar para que se encaixe na autora  */
+    opacity: 1;
+    padding: 24px;
+}
+
+footer{
+    background-color: rgba(1, 110, 1, 0.25); /*cor de fundo */
+    display: flex; /*deixar os itens dentro dele pro lado*/
+    justify-content: space-between;  /*jogar td o espaço sobrando entre os elemntos*/
+    gap: 80px; /*afastar as coisas uma da outra*/
+    padding: 64px 80px; /*aumetentar o tamanho e separa  */
+}
+
+footer img,
+footer .titulo {
+    display: block; /*transforma a img em bloco é vai funcionar  */
+    font-weight: 600; /*colocar o peso da fonte  */
+    margin-bottom: 24px; /*distancia da imagem da logo */
+}
+
+footer nav a {
+    color:#11a041; /* cor*/
+    display:block; /* quebra a linha e colocar para baixo*/
+    margin-bottom: 10px; /* margem dos botoes*/
+    text-decoration: none; /* tira a linha de baixo */
+}
+
+footer p {
+    margin-bottom: 17px; /* margem dos botoes*/
+    max-width: 350; /* largura maxima */
+}
+
+footer p a{
+    color: #ffffff; 
+    text-decoration: none;
+
+}
+
+#copyright {
+    background-color: #1a1818; /* cor de fundo*/
+    color: #ffffff; /* cor do texto*/
+    padding: 24px; /* tamanho na largura do fundo*/
+    text-align: center; /* centralizar*/
+    
+
+}
+
+#copyright a {
+    color: #ffffff;
+}
+
