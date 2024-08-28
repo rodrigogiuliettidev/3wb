@@ -24,3 +24,7 @@ Alimentação: Uma dieta equilibrada é crucial para a saúde do seu animal de e
 Exercício: Atividade física regular é importante para manter seu animal de estimação em forma.
 Higiene: Cuidados com a higiene, como banhos e escovação, são importantes para a saúde do seu animal de estimação.
 Visitas regulares ao veterinário: Check-ups regulares permitem detectar problemas de saúde precocemente.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para poder ver o prototipo do nosso projeto é só copiar o link: https://www.figma.com/proto/CrjXNjDHAo2wfjesmeVgxA/Projeto-Pet_Life?node-id=1-2&t=L7LGa3pN5mt1cY0p-1
