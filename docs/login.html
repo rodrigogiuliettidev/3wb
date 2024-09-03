@@ -3,115 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
+    <title>Criar conta</title>
+    <link rel="stylesheet" href="styles.css">
 
-        .form-container {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        h2 {
-            text-align: center;
-            color: #4CAF50;
-            margin-bottom: 20px;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: #333;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        input[type="tel"],
-        input[type="number"],
-        select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 5px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-sizing: border-box;
-        }
-
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-
-        .error-message {
-            color: red;
-            font-size: 0.875em;
-            display: none;
-            margin-top: -10px;
-            margin-bottom: 10px;
-        }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .form-container {
-                padding: 15px;
-            }
-
-            .form-group-inline {
-                display: flex;
-                flex-direction: column;
-            }
-        }
-
-        @media (min-width: 769px) {
-            .form-group-inline {
-                display: flex;
-                justify-content: space-between;
-            }
-
-            .form-group-inline .form-group {
-                width: 48%;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .form-container {
-                padding: 10px;
-            }
-        }
-    </style>
 </head>
-<body>
+<body class="body-login">
 
     <div class="form-container">
-        <h2>Cadastro</h2>
+        <h2>Criar conta</h2>
         <form id="registrationForm">
             <div class="form-group-inline">
                 <div class="form-group">
@@ -212,5 +111,82 @@
                 document.getElementById("first_name_error").style.display = "none";
             }
 
-            // Validar sobrenome
-            if (!document.get
+                        // Validar sobrenome
+            if (!document.getElementById("last_name").checkValidity()) {
+                document.getElementById("last_name_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("last_name_error").style.display = "none";
+            }
+
+            // Validar email
+            if (!document.getElementById("email").checkValidity()) {
+                document.getElementById("email_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("email_error").style.display = "none";
+            }
+
+            // Validar telefone
+            if (!document.getElementById("phone").checkValidity()) {
+                document.getElementById("phone_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("phone_error").style.display = "none";
+            }
+
+            // Validar CEP
+            if (!document.getElementById("cep").checkValidity()) {
+                document.getElementById("cep_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("cep_error").style.display = "none";
+            }
+
+            // Validar rua
+            if (!document.getElementById("rua").checkValidity()) {
+                document.getElementById("rua_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("rua_error").style.display = "none";
+            }
+
+            // Validar bairro
+            if (!document.getElementById("bairro").checkValidity()) {
+                document.getElementById("bairro_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("bairro_error").style.display = "none";
+            }
+
+            // Validar cidade
+            if (!document.getElementById("cidade").checkValidity()) {
+                document.getElementById("cidade_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("cidade_error").style.display = "none";
+            }
+
+            // Validar estado
+            if (!document.getElementById("estado").checkValidity()) {
+                document.getElementById("estado_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("estado_error").style.display = "none";
+            }
+
+            // Validar número
+            if (!document.getElementById("numero").checkValidity()) {
+                document.getElementById("numero_error").style.display = "block";
+                isValid = false;
+            } else {
+                document.getElementById("numero_error").style.display = "none";
+            }
+
+            // Se algum campo for inválido, evitar o envio do formulário
+            if (!isValid) {
+                event.preventDefault();
+            }
+        });
+    </script>
+
