@@ -6,10 +6,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+ color: #23a171   
 }
 
 header {
@@ -193,36 +190,6 @@ footer p a{
     color: #ffffff;
 }
 
-/* Ajuste para telas pequenas (Celulares) */
-@media (max-width: 480px) {
-    header {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    header img {
-        width: 120px;
-    }
-
-    header nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    main section {
-        padding: 10px;
-    }
-
-    footer {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    footer div {
-        margin: 5px 0;
-    }
-}
-
 /* css da pagina de criar conta */
 
 .body-login {
@@ -326,3 +293,4 @@ input[type="submit"]:hover {
         padding: 10px;
     }
 }
+
