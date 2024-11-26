@@ -44,3 +44,11 @@ Cada visita é cuidadosamente planejada para ser especial e livre de complicaç�
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Para poder ver o prototipo do nosso projeto é só copiar o link: https://www.figma.com/design/FALcwqNJ9lxZeZaPV5PZQt/harstil?node-id=0-1&node-type=canvas&t=UtMFoWq6chacUn7-0
+
+Site: https://www.projetomed.com.br/TECTI/2024/3TIC/grupo08/harstil/
+
+Banco de dados: https://auth-db794.hstgr.io/index.php?route=/sql&server=1&db=u451416913_2024grupo27&table=usuarios&pos=0
+
+Usuer: u451416913_2024grupo27
+
+Password: Grupo27@123
