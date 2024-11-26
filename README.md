@@ -41,8 +41,6 @@ Cada visita é cuidadosamente planejada para ser especial e livre de complicaç�
 - **Qualidade garantida:** Trabalhamos apenas com barbearias reconhecidas pela excelência no atendimento.  
 - **Facilidade e conforto:** Do agendamento à experiência no local, tudo pensado para sua comodidade.  
 
----
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Para poder ver o prototipo do nosso projeto é só copiar o link: https://www.figma.com/proto/CrjXNjDHAo2wfjesmeVgxA/Projeto-Pet_Life?node-id=1-2&t=L7LGa3pN5mt1cY0p-1
+Para poder ver o prototipo do nosso projeto é só copiar o link: https://www.figma.com/design/FALcwqNJ9lxZeZaPV5PZQt/harstil?node-id=0-1&node-type=canvas&t=UtMFoWq6chacUn7-0
