@@ -43,7 +43,7 @@ Cada visita é cuidadosamente planejada para ser especial e livre de complicaç�
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Para poder ver o prototipo do nosso projeto é só copiar o link: https://www.figma.com/design/FALcwqNJ9lxZeZaPV5PZQt/harstil?node-id=0-1&node-type=canvas&t=UtMFoWq6chacUn7-0
+Para poder ver o prototipo do nosso projeto é só copiar o link: https://www.figma.com/design/UM3CHNSIoP1wSsKYgjAw6u/HarstilWeb?node-id=0-1&t=5fHs3kmwB4S8JB4T-1
 
 Site: https://www.projetomed.com.br/TECTI/2024/3TIC/grupo08/harstil/
 
